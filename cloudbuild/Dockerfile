@@ -1,5 +1,5 @@
 # This Dockerfile creates an image for running presubmit tests.
-FROM openjdk:8
+FROM openjdk:13.0.2
 
 # This should match with sbt version under project/build.properties
 ARG SBT_VERSION=0.13.17
